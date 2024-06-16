@@ -1,9 +1,9 @@
-import SwipeableContent from "@/components/SwipeableContent";
+import AppContainer from "@/components/AppContainer";
 
 export default function Home() {
   return (
     <main className='flex items-center justify-center min-h-screen'>
-      <SwipeableContent />
+      <AppContainer />
     </main>
   );
 }
