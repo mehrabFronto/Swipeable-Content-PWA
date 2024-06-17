@@ -17,8 +17,8 @@ This project is a demonstration of a Progressive Web Application (PWA) built wit
 
 1. **Clone the repository:**
 
-<p>git clone https://github.com/your-username/your-repository.git</p>
-<p>cd your-repository</p>
+<p>git clone https://github.com/mehrabFronto/Swipeable-Content-PWA</p>
+<p>cd Swipeable-Content-PWA</p>
 
 
 2. **Install dependencies:**
