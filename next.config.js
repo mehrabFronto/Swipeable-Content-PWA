@@ -1,17 +1,16 @@
 /** @type {import('next').NextConfig} */
-
-const withPWA = require("@ducanh2912/next-pwa").default({
+const withPWA = require("next-pwa")({
   dest: "public",
   cacheOnFrontEndNav: true,
-  aggressiveFrontEndNavCaching: true,
+  disable: process.env.NODE_ENV === "development",
   reloadOnOnline: true,
-  swcMinify: true,
-  disable: false,
-  workboxOptions: {
-    disableDevLogs: true,
-  },
+  scope: "/app",
+  maximumFileSizeToCacheInBytes: 5000000, // Max file size to cache (in bytes)
 });
 
-module.exports = withPWA({
-  // Next.js config
-});
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+};
+
+module.exports = withPWA(nextConfig);
