@@ -12,29 +12,38 @@ This project is a demonstration of a Progressive Web Application (PWA) built wit
 - Swipeable content with gesture support.
 - Built with Next.js for server-side rendering and TypeScript for type safety.
 - Styled using TailwindCSS for rapid and customizable styling.
+- Implementation of taking screenshots.
 
 ## Installation and Setup
 
 1. **Clone the repository:**
 
-<p>git clone https://github.com/mehrabFronto/Swipeable-Content-PWA</p>
-<p>cd Swipeable-Content-PWA</p>
+```sh
+  git clone https://github.com/mehrabFronto/Swipeable-Content-PWA
+  ```
 
+```sh
+  cd Swipeable-Content-PWA
+  ```
 
 2. **Install dependencies:**
 
-npm install
+```sh
+  npm install
+  ```
+
+
 
 3. **Run the project:**
 
+```sh
 npm run dev
-
+  ```
 
 ## Usage
 
 To use the application:
 
 1. Open the application in a web browser.
-2. Open inspect and resize screen to mibile
+2. Open inspect and resize screen to mobile
 3. Swipe left or right on the screen to navigate between the test contents.
-
