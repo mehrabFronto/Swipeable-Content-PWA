@@ -16,7 +16,7 @@ const ScreenshotModal: React.FC<ScreenshotModalProps> = ({
     if (screenshotUrl) {
       // Implement the logic to share the screenshot
     }
-  }, []);
+  }, [screenshotUrl]);
 
   return (
     <>

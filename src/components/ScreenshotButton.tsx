@@ -19,7 +19,7 @@ const ScreenshotButton: React.FC<{
     } catch (error) {
       console.error("Error capturing screenshot:", error);
     }
-  }, []);
+  }, [parentRef]);
 
   return (
     <>
